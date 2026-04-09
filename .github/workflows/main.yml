@@ -1,0 +1,26 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天北京时间早上 8 点执行一次
+  workflow_dispatch: # 允许你手动点击运行按钮
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync upstream changes
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
+        with:
+          target_sync_branch: main        # 你自己仓库的分支
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+          upstream_sync_branch: main      # 原作者仓库的分支
+          upstream_sync_repo: shanraisshan/claude-code-best-practice # 原仓库地址
+          
+          # 如果同步遇到冲突，建议设置为 true 以便手动处理，或者 false 强制覆盖
+          test_mode: false
