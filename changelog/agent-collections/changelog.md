@@ -10,6 +10,30 @@ Tracks updates to the AGENT COLLECTIONS table in `README.md`.
 
 ---
 
+## [2026-07-01 08:36 AM PKT] Agent Collections Update
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | HIGH | Star | Update msitarzewski/agency-agents ★ from 119k to 121k | COMPLETE (GitHub API: 121,144 exact; crossed two k-boundaries (120k, 121k); +2k since Jun 30 run; consistent with sustained daily growth and Jun 29 native app launch momentum; NEW — milestone crossing; conf 0.96) |
+| 2 | LOW | Count | msitarzewski/agency-agents agents 232 vs 233 (git-tree=233; README self-declares 232; 1-agent delta = Network Engineer added 2026-06-30 one commit ahead of README badge update) | INVALID (within ±1 margin; README canonical says 232; RECURRING) |
+| 3 | LOW | Star | VoltAgent/awesome-claude-code-subagents ★ unchanged (23k = 22,637) | INVALID (no change required; 22,637 rounds to 23k; RECURRING) |
+| 4 | LOW | Count | VoltAgent/awesome-claude-code-subagents agents 156 vs 154 (−2; git tree 0.97 conf; Jun changes were model-inherit fixes + README branding, no new agent .md files) | INVALID (RECURRING ±2 oscillation; no confirmed net agent additions or removals in Jun; no change) |
+| 5 | LOW | Sort | Verify sort order (121k > 23k — stars descending) | COMPLETE (order preserved; RECURRING) |
+
+---
+
+## [2026-06-30 08:36 AM PKT] Agent Collections Update
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | HIGH | Star | Update msitarzewski/agency-agents ★ from 116k to 119k | COMPLETE (GitHub HTML: ~119,000; 3k jump since Jun 28; triggered by Jun 29 native Agency Agents app launch announcement; NEW — conf 0.82) |
+| 2 | HIGH | Star | Update VoltAgent/awesome-claude-code-subagents ★ from 22k to 23k | COMPLETE (GitHub HTML: 22,600; 22.6k crosses .5 boundary → rounds to 23k; same .5-rounds-up precedent as Jun 10 run; NEW — conf 0.78) |
+| 3 | LOW | Count | VoltAgent/awesome-claude-code-subagents agents 156 vs 151 (−5) | INVALID (RECURRING oscillation; no new agent files since May 30 — only README/config maintenance Jun 12–24; README self-reports "154+"; within documented ±5 range; no change) |
+| 4 | LOW | Count | msitarzewski/agency-agents agents unchanged (232) | INVALID (no change required; README self-reports 232; per-division sum 228+4 gap within margin; RECURRING stable) |
+| 5 | LOW | Sort | Verify sort order (119k > 23k — stars descending) | COMPLETE (order preserved; RECURRING) |
+
+---
+
 ## [2026-06-28 08:35 AM PKT] Agent Collections Update
 
 | # | Priority | Type | Action | Status |
